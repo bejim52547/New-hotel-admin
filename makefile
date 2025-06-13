@@ -17,4 +17,3 @@ deploy: build
 	# Create the frontend directory if it doesn't exist and copy the build files
 	ssh -o StrictHostKeyChecking=no -i $(SSH_KEY_PATH) $(EC2_USER)@$(EC2_IP) "mkdir -p ~/frontend"
 	scp -o StrictHostKeyChecking=no -i $(SSH_KEY_PATH) -r $(DIST_DIR)/* $(EC2_USER)@$(EC2_IP):~/frontend/
-
