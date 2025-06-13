@@ -1,0 +1,17 @@
+/* Hide Google Translate's default banner (the bar at the top) */
+.goog-te-banner-frame {
+    display: none !important;
+  }
+  
+  /* Customize the dropdown */
+  .goog-te-combo {
+    background-color: #4CAF50; /* Green background */
+    color: white;  /* White text */
+    font-size: 16px;  /* Adjust font size */
+    padding: 5px;  /* Add padding */
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  .goog-te-gadget-simple .VIpgJd-ZVi9od-xl07Ob-lTBxed span {
+    text-decoration: underline;
+}

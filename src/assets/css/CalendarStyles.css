@@ -1,0 +1,29 @@
+/* CalendarStyles.css */
+
+.react-calendar__tile {
+    border: none; /* Remove border from the tiles */
+  }
+  
+  .react-calendar__month-view__days__day--neighboringMonth {
+    opacity: 0.5; /* Optional: Style for neighboring days */
+  }
+  
+  .react-calendar__tile--active {
+    background-color: #3b82f6 !important; /* Change active day color */
+    color: white;
+  }
+
+  .react-calendar__tile--now {
+    background: transparent;
+    font-weight: 800;
+}
+  
+  .react-calendar__tile--hover {
+    background-color: rgba(59, 130, 246, 0.2); /* Change hover color */
+
+  }
+
+  abbr[title] {
+    text-decoration: none;
+}
+  

@@ -1,0 +1,60 @@
+/* .sta{
+    background-color: black;
+}
+
+@media screen and (min-width: 600px) {
+    .sta {
+      background-color: lightblue;
+    }
+  }
+ */
+
+
+ /* Adjust the position of the slider arrows */
+.slick-prev, .slick-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for better visibility */
+  color: white;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 20px; /* Adjust arrow size */
+}
+
+.slick-prev {
+  left: 20px; /* Position the left arrow */
+}
+
+.slick-next {
+  right: 20px; /* Position the right arrow */
+}
+
+.slick-prev:before, .slick-next:before {
+  content: ''; /* Remove default arrow symbols */
+}
+
+/* Optional: Add custom arrows */
+.slick-prev::before, .slick-next::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white; /* Create the arrow effect */
+}
+
+.slick-prev {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white;
+}
+
+.slick-next {
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid white;
+}
+
